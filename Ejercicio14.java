@@ -4,17 +4,15 @@ public class Ejercicio14 {
     public static void main(String[] args) {
         
         String caracteres = "abcdefghijklmnopqrstuvwxyz0123456789";
+        int longitud = caracteres.length();
         
-        for(int i=0; i<=7; i++) { 
+        for(int i=0; i<=7; i++) {
             Random random = new Random();
-            int dado1 = random.nextInt(5)+1;
-            System.out.println(i);
+            
+            int car = random.nextInt(longitud);
+            char result = caracteres.charAt(car);
+            System.out.println(result);
         }
         
-
-        int result = caracteres.length();
-        System.out.println(result);
-        //char result = name.charAt(0);
-
     }
 }
