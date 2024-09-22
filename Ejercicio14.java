@@ -11,7 +11,9 @@ public class Ejercicio14 {
             
             int car = random.nextInt(longitud);
             char result = caracteres.charAt(car);
-            System.out.println(result);
+            
+            System.out.print(result);
+            
         }
         
     }
