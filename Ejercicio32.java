@@ -1,5 +1,3 @@
-import javax.swing.JOptionPane;
-
 public class Ejercicio32 {
     
     public static void main(String[] args) {
@@ -19,7 +17,7 @@ public class Ejercicio32 {
             }
         }
         
-        if(counter==0){JOptionPane.showMessageDialog(null,"Tu cadena no tiene vocales.");}
+        if(counter==0){JOptionPane.showMessageDialog(null,"Tu cadena NO tiene vocales.");}
         else if(counter==1){JOptionPane.showMessageDialog(null,"Tu cadena tiene: " + counter +" vocal.");}
         else {JOptionPane.showMessageDialog(null,"Tu cadena tiene: " + counter +" vocales.");}
         
